@@ -1,0 +1,336 @@
+.color {
+  font-family: "Tahoma", sans-serif;
+  color: #333;
+  background-color: #D3D3D3;
+}
+
+.colorhome {
+  font-family: "Tahoma", sans-serif;
+  color: #333;
+}
+
+/* -------------------------- imagens */
+.imglogohome {
+    max-width: 120%;
+    height: auto;
+    padding: 50px 0;
+    cursor: pointer;
+}
+
+.imgtraco {
+    max-width: 30%;
+    height: auto;
+    padding: 30px 50px;
+}
+
+.imgtraco2 {
+  max-width: 80%;
+  margin-bottom: 15px;
+  margin-left: 18px;
+}
+
+.imgtracohorizontal {
+  width: 80%;
+  height: 10px;
+  margin: 0 auto;
+  padding: 20px 0;
+  display: block;
+}
+
+.imgfooter {
+  max-width: 7%;
+  height: auto;
+  cursor: pointer;
+}
+
+.imglogo {
+    max-width: 7%;
+    position: absolute;
+    left: 47%;
+    margin-top: 8px;
+    height: auto;
+    cursor: pointer;
+}
+
+/* -------------------------- botões */
+button:hover {
+  color: #BEBEBE;
+}
+
+.button {
+  background-color: #0080AD;
+  font-weight: bold;
+  border: none;
+  color: #fff;
+  border-radius: 3px;
+  height: 40px;
+  font-size: 17px;
+  padding: 10px 10px;
+  margin: 0 auto;
+  cursor: pointer;
+} .button:hover {
+    background-color: #104E8B;
+  }
+
+.div-button button {
+  width: 110px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-left: 1px solid #BEBEBE;
+  background-color: transparent;
+  display: table-cell;
+  float: right;
+}
+
+.editar-btn {
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 2px 5px;
+  margin-left: 8px;
+  background: #4AB14C;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.deletar-btn {
+  text-decoration: none;
+  border-radius: 2px;
+  padding: 2px 5px;
+  background: #CA4A31;
+  color: #FFF;
+  cursor: pointer;
+}
+
+/* -------------------------- bordas */
+.div-border {
+  border-bottom: 1px solid #BEBEBE;
+  box-shadow: 0 0 10px #696969;
+}
+
+.div-borderhome {
+  border: 1px solid #BEBEBE;
+  box-shadow: 0 0 20px #696969;
+  background-color: #FFF;
+  margin: 0 18% 0 18%;
+  padding: 10px 10px 10px 10px;
+  border-radius: 3px;
+}
+
+/* -------------------------- formulários */
+.contato input {
+  width: 40%;
+  height: 20px;
+  border: 2px solid #BEBEBE;
+  border-radius: 2px;
+  padding: 10px 10px;
+}
+
+.div-complemento {
+  width: 100%;
+  height: auto;
+}
+
+.div-form form {
+  border-radius: 3px;
+  margin: 60px auto;
+  border: 1px solid #BEBEBE;
+}
+
+/* -------------------------- texto */
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: center;
+  font-weight: 500px;
+  letter-spacing: 1px;
+  margin: 15px 0 10px 0;
+  color: #0080AD;
+}
+
+p {
+  line-height: 1.2;
+  letter-spacing: 0.5px;
+  text-align: center;
+}
+
+/* -------------------------- layout do site */
+.header {
+  background: #FFF;
+  height: 50px;
+  position: relative;
+}
+
+.headerhome {
+    background: #FFF;
+    height: auto;
+  }
+
+.sectionhome {
+  position: relative;
+  top: 20%;
+}
+
+.conteudo-extra {
+  color: #fff;
+  background: #363636;
+}
+
+.sideheader {
+  width: 100%;
+  height: auto;
+}
+
+/* -------------------------- rodapé */
+.footer {
+  background: #000;
+  color: #FFF;
+  padding: 10px 0;
+  text-align: center;
+  font-weight: 100px;
+}
+
+.footerstrong {
+  font-family: 'Raleway', sans-serif;
+  font-size: 20px;
+}
+
+/* -------------------------- tabelas */
+.tabela img {
+  max-width: 15%;
+  float: left;
+  display: table-cell;
+}
+
+.tabela p {
+  display: table-cell;
+  float: left;
+  width: 230px;
+}
+
+table {
+  width: 50%;
+  margin: 40px auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+tr {
+  border-bottom: 1px solid #BEBEBE;
+}
+
+td, td {
+  border: none;
+  height: 30px;
+  padding: 3px;
+}
+
+tr:hover {
+  background: #F5F5F5;
+}
+
+/*  -------------------------- local */
+.abaixar {
+  margin-top: 30px;
+}
+
+/* -------------------------- outros */
+a {
+  color: #0080AD;
+  text-decoration: none;
+} a:hover {
+    color: #BEBEBE;
+    text-decoration: none;
+  }
+
+strong {
+  border: 5px solid #CA4A31;
+  background-color: #CA4A31;
+  color: #FFF;
+  border-radius: 3px;
+}
+
+em {
+  border: 5px solid #4AB14C;
+  background-color: #4AB14C;
+  color: #FFF;
+  border-radius: 3px;
+  font-style: normal;
+  font-weight: bold;
+}
+
+.bemvindo p {
+  float: right;
+  margin: 15px auto;
+  padding-right: 15px;
+  text-align: right;
+}
+
+
+
+
+
+/* -------------------------- grid 960px */
+.linha {
+  width: 960px;
+  margin: 0 auto;
+  overflow: hidden;
+  padding: 1px 1px;
+}
+
+.coluna {
+  padding: 0 10px;
+  float: left;
+}
+
+.col1 {
+  width: 60px;
+}
+
+.col2 {
+  width: 140px;
+}
+
+.col3 {
+  width: 220px;
+}
+
+.col4 {
+  width: 300px;
+}
+
+.col5 {
+  width: 380px;
+  margin-left: 30px;
+}
+
+.col6 {
+  width: 460px;
+}
+
+.col7 {
+  width: 540px;
+}
+
+.col8 {
+  width: 620px;
+}
+
+.col9 {
+  width: 700px;
+}
+
+.col10 {
+  width: 780px;
+}
+
+.col11 {
+  width: 860px;
+}
+
+.col12 {
+  width: 940px;
+  height: 600px;
+}
